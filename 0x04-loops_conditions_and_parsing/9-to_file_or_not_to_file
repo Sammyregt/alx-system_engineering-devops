@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #a script to print information about a file
 
-file="School"
+file="school"
 if [ -a $file ]
 then
 	echo "$file file exit"
