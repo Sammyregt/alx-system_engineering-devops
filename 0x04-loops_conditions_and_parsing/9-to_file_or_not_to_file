@@ -2,7 +2,7 @@
 #a script to print information about a file
 
 file="school"
-if [ -a $file ]
+if [ -e $file ]
 then
 	echo "$file file exit"
 	if [ -s $file ]
