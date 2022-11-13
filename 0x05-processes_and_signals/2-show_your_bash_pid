@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#script to display a my bash pid
+
+ps -aux --forest | grep bash
